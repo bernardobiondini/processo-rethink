@@ -1,0 +1,16 @@
+.person-card {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #1b1b1b;
+  color: white;
+
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+.person-card p {
+  flex: 1;
+}

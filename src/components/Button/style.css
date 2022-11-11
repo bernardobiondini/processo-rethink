@@ -1,0 +1,12 @@
+.buttom-comp  {
+  width: 200px;
+  padding: 15px;
+  background-color: #1b1b1b;
+  color: #d3f13a;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.buttom-comphover {
+  filter: brightness(.75);
+}
