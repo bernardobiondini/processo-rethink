@@ -73,6 +73,7 @@ function App() {
 
   function handleReturnNames(e) {
     e.preventDefault();
+    setReturnedNames([]);
 
     pessoas.forEach( pessoa => {
       let i = 0;
@@ -86,6 +87,7 @@ function App() {
 
   function handleHabilitadas(e) {
     e.preventDefault();
+    setPessoasHabilitadas([]);
 
     pessoas.forEach( pessoa => { 
       if(pessoa.age >= 18) setPessoasHabilitadas(oldArray => [...oldArray, pessoa]);
@@ -94,6 +96,7 @@ function App() {
 
   function handleMediaIdades(e) {
     e.preventDefault();
+    setMediaIdades(0);
     let soma = 0;
 
     pessoas.forEach( pessoa => { 
